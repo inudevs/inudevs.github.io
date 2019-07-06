@@ -1,0 +1,109 @@
+.header {
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-image:
+    linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), 
+    url(/assets/images/header.png);
+
+  &__nav {
+    position: absolute;
+    width: 100%;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 3.5rem;
+    align-content: center;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 1.5rem;
+  }
+
+  &__brand {
+    padding: 0 1.5rem;
+    align-self: center;
+    display: flex;
+    font-weight: 800;
+    font-size: 1.8rem;
+    cursor: pointer;
+  }
+
+  &__nav-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    align-items: center;
+    display: flex;
+  }
+
+  &__nav-item {
+    cursor: pointer;
+    padding: 0 1.4rem;
+    align-content: center;
+    height: 100%;
+    font-size: 1.2rem;
+    color: $gray-6;
+
+    &:not(:last-of-type) {
+      margin-right: 0.3rem;
+    } 
+
+    &.active {
+      color: white
+    }
+  }
+
+  &__nav-text {
+    margin-left: 0.2rem;
+  }
+
+  &__btns {
+    align-items: center;
+    display: flex;
+    font-size: 1.1rem;
+  }
+
+  &__btn {
+    font-weight: 600;
+    padding: 0.2rem 0.4rem;
+    border: 1px solid white;
+    cursor: pointer;
+
+    &:first-child {
+      border-right: none;
+    }
+
+    &:hover,
+    &:active {
+      color: $brand;
+      background: white;
+    }
+  }
+
+  &__container {
+    height: 500px;
+    display: flex;
+    justify-content: center;
+  }
+
+  &__content {
+    color: white;
+    position: absolute;
+    bottom: 3rem;
+    left: 10rem;
+  }
+
+  &__title {
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-color: white;
+    -webkit-text-stroke-width: 1.8px;
+    margin: 0;
+    font-size: 4rem;
+  }
+
+  &__desc {
+    margin: 0;
+    font-size: 1.2rem;
+  }
+}
