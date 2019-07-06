@@ -1,0 +1,46 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+html {
+  position: relative; 
+  min-height: 100%;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Spoqa Han Sans', 'Sans-serif';
+}
+
+a {
+  color: unset;
+  text-decoration: none;
+  transition: all 0.4s;
+}
+
+.root-container {
+  display: flex;
+  justify-content: center;
+  padding-left: 10rem;
+  padding-right: 10rem;
+
+  @media (max-width: 900px) {
+    padding-left: 6rem;
+    padding-right: 6rem;
+  }
+
+  @media (max-width: 600px) {
+    padding-left: 3rem;
+    padding-right: 3rem;
+    display: block;
+  }
+
+  @media (max-width: 400px) {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+}
