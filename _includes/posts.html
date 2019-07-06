@@ -1,0 +1,23 @@
+<div class="posts-container">
+  <ul class="posts">
+    {% for post in site.posts %}
+      <li class="post-item">
+        <a href="{{ post.url }}">
+          <span class="post-item__meta">
+            <span class="post-item__date">
+              {{ post.date | date: '%Y년 %m월 %d일' }},
+            </span>
+            <span class="post-item__author">
+              {{ post.author }}
+            </span>
+            <img class="post-item__profile" src="/assets/images/profiles/{{ post.author }}.png" />
+          </span>
+          <h1 class="post-item__title">
+            {{ post.title }}
+          </h1>
+          <p class="post-item__excerpt">{{ post.excerpt | strip_html | truncate: 70 }}</p>
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
+</div>

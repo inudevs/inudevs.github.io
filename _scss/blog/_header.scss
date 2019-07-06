@@ -44,14 +44,19 @@
     height: 100%;
     font-size: 1.2rem;
     color: $gray-6;
+    transition: all 0.3s;
 
     &:not(:last-of-type) {
       margin-right: 0.3rem;
-    } 
+    }
 
     &.active {
       color: white
     }
+  }
+
+  &__nav-item:hover {
+    color: $gray-4;
   }
 
   &__nav-text {
@@ -76,7 +81,7 @@
 
     &:hover,
     &:active {
-      color: $brand;
+      color: black;
       background: white;
     }
   }

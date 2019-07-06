@@ -1,0 +1,51 @@
+.posts-container {
+  flex: 1 1;
+  width: 100%;
+}
+
+.posts {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  list-style: none;
+  margin-top: 2rem;
+}
+
+.post-item {
+  padding: 2rem 0;
+  border-bottom: 1px solid $gray-3;
+
+  &:last-of-type {
+    border-bottom: none;
+  }
+
+  &__meta {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 0.8rem;
+  }
+
+  &__author {
+    margin-left: 0.2rem;
+  }
+
+  &__profile {
+    height: 2rem;
+    width: 2rem;
+    margin-left: 0.5rem;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+
+  &__title {
+    margin: 0;
+    font-size: 2.2rem;
+    line-height: 1.5;
+  }
+
+  &__excerpt {
+    margin: 0;
+    font-size: 1.2rem;
+  }
+}
