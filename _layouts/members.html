@@ -1,0 +1,21 @@
+---
+layout: default
+---
+
+<div class="members">
+  <span class="members__title">
+    <span class="members__year">
+      INU 2019
+    </span>
+    <span class="members__desc">
+      2019년, 자율동아리로 시작한 INU와 함께하고 있는 사람들입니다.
+    </span>
+  </span>
+  <div class="members__list">
+    {% for user in site.data.users %}
+      <div class="members__member">
+        <h1>{{ user.name }}</h1>
+      </div>
+    {% endfor %}
+  </div>
+</div>
