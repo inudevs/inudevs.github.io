@@ -27,7 +27,10 @@ a {
   justify-content: center;
   padding-left: 10rem;
   padding-right: 10rem;
-  margin-bottom: 5rem;
+  padding-bottom: 5rem;
+  height: 100%;
+  color: white;
+  background: linear-gradient(to bottom, $dark-0, $gray-9);
 
   @media (max-width: 900px) {
     padding-left: 6rem;

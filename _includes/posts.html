@@ -3,15 +3,21 @@
     {% for post in site.posts %}
       <li class="post-item">
         <a href="{{ post.url }}">
-          <span class="post-item__meta">
-            <span class="post-item__date">
-              {{ post.date | date: '%Y년 %m월 %d일' }},
-            </span>
-            <span class="post-item__author">
-              {{ post.author }}
-            </span>
-            <img class="post-item__profile" src="/assets/images/profiles/{{ post.author }}.png" />
-          </span>
+          <div class="post-item__meta">
+            <div class="post-item__field">
+              <span class="post-item__label">DATE</span>
+              <span class="post-item__value">{{ post.date | date: '%Y년 %m월 %d일' }}</span>
+            </div>
+            <div class="post-item__field">
+              <span class="post-item__label">AUTHOR</span>
+              <span class="post-item__value">
+                <img class="post-item__profile" src="/assets/images/profiles/{{ post.author }}.png" />
+                <span class="post-item__author">
+                  {{ post.author }}
+                </span>
+              </span>
+            </div>
+          </div>
           <h1 class="post-item__title">
             {{ post.title }}
           </h1>
