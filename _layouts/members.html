@@ -12,9 +12,12 @@ layout: default
     </span>
   </span>
   <div class="members__list">
-    {% for user in site.data.users %}
-      <div class="members__member">
-        <h1>{{ user.name }}</h1>
+    {% assign users = site.data.users %}
+    {% for user in users %}
+      <div class="member">
+        <div class="member__image"></div>
+        <span class="member__name">{{ user.name }}</span>
+        <span class="member__belong">{{ user.belong }}</span>
       </div>
     {% endfor %}
   </div>

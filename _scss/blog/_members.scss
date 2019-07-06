@@ -19,8 +19,23 @@
     grid-row-gap: 1rem;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   }
+}
 
-  &__member {
-    background: skyblue;
+.member {
+  background-color: $dark-0;
+  border-radius: 5px;
+
+  &__image {
+    width: 100%;
+    height: 10rem;
+    object-fit: cover;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background-position: center;
+    background-size: cover;
+  }
+
+  &__name {
+    margin: 0;
   }
 }
