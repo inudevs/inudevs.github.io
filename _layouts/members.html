@@ -12,9 +12,36 @@ layout: default
     </span>
   </span>
   <div class="members__list">
-    {% for user in site.data.users %}
-      <div class="members__member">
-        <h1>{{ user.name }}</h1>
+    {% for user in site.data.users.2019 %}
+      <div class="member">
+        <div class="member__profile">
+          <div class="member__image"></div>
+          <div class="member__info">
+            <span class="member__small">
+              <span class="member__belong">{{ user.belong }}</span>
+              <span class="member__badge">{{ user.badge }}</span>
+            </span>
+            <span class="member__name">{{ user.name }}</span>
+          </div>
+        </div>
+        <div class="member__btns">
+          {% if user.social.facebook %}
+            <a
+              class="member__btn"
+              href="{{ user.social.facebook }}"
+            >
+              <i class="fab fa-facebook"></i>
+            </a>
+          {% endif %}
+          {% if user.social.github %}
+            <a
+              class="member__btn"
+              href="{{ user.social.github }}"
+            >
+              <i class="fab fa-github"></i>
+            </a>
+          {% endif %}
+        </div>
       </div>
     {% endfor %}
   </div>

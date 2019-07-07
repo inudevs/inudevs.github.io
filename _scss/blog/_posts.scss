@@ -13,7 +13,7 @@
 
 .post-item {
   padding: 2rem 1rem;
-  border-bottom: 1px solid $gray-3;
+  border-bottom: 1px solid $gray-4;
 
   &:last-of-type {
     border-bottom: none;
@@ -36,14 +36,14 @@
   }
 
   &__label {
-    color: $gray-3;
+    color: $gray-7;
     padding-right: 1.5rem;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
   }
 
   &__value {
-    color: $gray-4;
+    color: $gray-6;
     display: flex;
     align-items: center;
   }
@@ -58,7 +58,7 @@
     margin-right: 0.1rem;
     object-fit: cover;
     border-radius: 50%;
-    border: 1px solid $gray-7;
+    border: 1px solid $gray-4;
   }
 
   &__title {
@@ -68,12 +68,12 @@
   }
 
   &__excerpt {
-    color: $gray-5;
+    color: $gray-7;
     margin: 0;
     font-size: 1.2rem;
   }
 
   &:hover {
-    background: linear-gradient(to right, rgba(255, 255, 255, 0.02) 30%, rgba(255, 255, 255, 0.1))
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.02) 30%, rgba(0, 0, 0, 0.1))
   }
 }
