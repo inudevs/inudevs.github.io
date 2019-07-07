@@ -1,0 +1,56 @@
+[
+  {
+    "name": "여준호",
+    "badge": "동장",
+    "belong": "18기 해킹방어과",
+    "social": {
+      "github": "https://github.com/junhoyeo",
+      "facebook": "https://facebook.com/juno3704"
+    }
+  },
+  {
+    "name": "김한경",
+    "badge": "부동장",
+    "belong": "18기 디지털컨텐츠과",
+    "social": {
+      "github": "https://github.com/junhoyeo",
+      "facebook": "https://facebook.com/juno3704"
+    }
+  },
+  {
+    "name": "심재성",
+    "badge": "니가써",
+    "belong": "18기 웹프로그래밍과",
+    "social": {
+      "github": "https://github.com/junhoyeo",
+      "facebook": "https://facebook.com/juno3704"
+    }
+  },
+  {
+    "name": "우상윤",
+    "badge": "니가써",
+    "belong": "18기 해킹방어과",
+    "social": {
+      "github": "https://github.com/junhoyeo",
+      "facebook": "https://facebook.com/juno3704"
+    }
+  },
+  {
+    "name": "윤영창",
+    "badge": "니가써",
+    "belong": "18기 웹프로그래밍과",
+    "social": {
+      "github": "https://github.com/junhoyeo",
+      "facebook": "https://facebook.com/juno3704"
+    }
+  },
+  {
+    "name": "김상민",
+    "badge": "니가써",
+    "belong": "18기 웹프로그래밍과",
+    "social": {
+      "github": "https://github.com/junhoyeo",
+      "facebook": "https://facebook.com/juno3704"
+    }
+  }
+]

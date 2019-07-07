@@ -14,6 +14,7 @@
 
   &__list {
     margin-top: 1rem;
+    margin-bottom: 1.5rem;
     display: grid;
     grid-column-gap: 1rem;
     grid-row-gap: 1rem;
@@ -22,20 +23,52 @@
 }
 
 .member {
-  background-color: $light-0;
+  background-color: $gray-1;
   border-radius: 5px;
+  padding: 0.8rem;
+
+  &__profile {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
 
   &__image {
-    width: 100%;
-    height: 10rem;
+    height: 7rem;
+    width: 7rem;
     object-fit: cover;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
-    background-position: center;
-    background-size: cover;
+    border-radius: 50%;
+    border: 1px solid black;
+    // display: inline-block;
+    display: inline-flex;
+    margin-right: 0.5rem;
+  }
+
+  &__info {
+    display: inline-flex;
   }
 
   &__name {
-    margin: 0;
+    font-size: 2rem;
+    font-weight: 800;
+    margin-right: 0.5rem;
+  }
+
+  &__small {
+    display: inline-flex;
+    flex-direction: column;
+  }
+
+  &__badge {
+    display: block;
+  }
+
+  &__belong {
+    display: block;
+    font-size: 0.8rem;
+  }
+
+  &__btns {
+    display: block;
   }
 }
