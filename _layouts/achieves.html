@@ -25,14 +25,15 @@ layout: default
           </div>
           <span class="achievement__date">{{ item.date }}</span>
           <span class="achievement__desc">{{ item.desc }}</span>
-        </div>
-        <div class="achievement__members">
-          {% for member in item.members %}
-            <img
-              class="achievement__member"
-              src="/assets/images/profiles/{{ member }}.jpg"
-            >
-          {% endfor %}
+          <div class="achievement__members">
+            {% for member in item.members %}
+              <img
+                class="achievement__member"
+                src="/assets/images/profiles/{{ member }}.jpg"
+                onerror="if (this.src != 'https://via.placeholder.com/150.png?text=INU+2019') this.src = 'https://via.placeholder.com/150.png?text=INU+2019';"
+              >
+            {% endfor %}
+          </div>
         </div>
       </div>
     {% endfor %}

@@ -72,16 +72,60 @@
   &__members {
     position: absolute;
     right: 0;
+    bottom: 0.3rem;
   }
 
   &__member {
-    height: 3rem;
-    width: 3rem;
+    height: 2.8rem;
+    width: 2.8rem;
     border-radius: 50%;
+  }
+
+  &__member:not(:last-child) {
     margin-right: 0.5rem;
   }
 
   &:not(.success) {
     // opacity: 0.6;
+  }
+
+  @media (max-width: 700px) {
+    &__info {
+      width: 100%;
+    }
+
+    &__title {
+      flex-direction: column;
+    }
+
+    &__name {
+      font-size: 1.2rem;
+    }
+
+    &__track {
+      margin: 0;
+    }
+
+    &__profile {
+      height: 2.5rem;
+      width: 2.5rem;
+    }
+
+    // &__members {
+    //   position: unset;
+    //   display: block;
+    //   margin-top: 0.5rem;
+    //   width: 100%;
+    //   text-align: right;
+    // }
+
+    // &__member {
+    //   height: 2rem;
+    //   width: 2rem;
+    // }
+
+    &__members {
+      display: none;
+    }
   }
 }
