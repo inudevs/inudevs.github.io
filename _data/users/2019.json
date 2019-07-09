@@ -41,8 +41,9 @@
   },
   {
     "name": "윤영창",
-    "badge": "니가써",
+    "badge": "인생이 안드",
     "belong": "WP18",
+    "image": "/assets/images/profiles/default.jpg",
     "social": {
       "github": "https://github.com/YunYeongChang",
       "facebook": "https://www.facebook.com/profile.php?id=100007497766196"
@@ -52,6 +53,7 @@
     "name": "김상민",
     "badge": "로봇암 개발중",
     "belong": "WP18",
+    "image": "/assets/images/profiles/default.jpg",
     "social": {
       "github": "https://github.com/plantstoen",
       "facebook": "https://www.facebook.com/profile.php?id=100013538622645"
