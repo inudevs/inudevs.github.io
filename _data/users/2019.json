@@ -1,7 +1,7 @@
 [
   {
     "name": "여준호",
-    "badge": "동장",
+    "badge": "일개미 고용주",
     "belong": "HD18",
     "image": "/assets/images/profiles/여준호.jpg",
     "social": {
@@ -11,7 +11,7 @@
   },
   {
     "name": "김한경",
-    "badge": "부동장",
+    "badge": "개발자를 꿈꾸는 일개미",
     "belong": "DC18",
     "image": "/assets/images/profiles/김한경.jpg",
     "social": {
@@ -33,6 +33,7 @@
     "name": "우상윤",
     "badge": "0개 국어 전문가",
     "belong": "HD18",
+    "image": "/assets/images/profiles/우상윤.jpg",
     "social": {
       "github": "https://github.com/SYWoo2003",
       "facebook": "https://www.facebook.com/profile.php?id=100011416725308"
@@ -40,7 +41,7 @@
   },
   {
     "name": "윤영창",
-    "badge": "니가써",
+    "badge": "인생은 안드",
     "belong": "WP18",
     "social": {
       "github": "https://github.com/YunYeongChang",

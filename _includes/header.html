@@ -1,70 +1,45 @@
+<div class="header__nav">
+      <a href="/" class="header__brand">
+        INU 2019
+      </a>
+      <ul class="header__nav-list">
+        <li>
+          {% assign current = page.url | split: '.' %}
+          <a href="/story" class="header__nav-item {% if current.first == '/story' %}active{% endif %}">
+            <i class="fas fa-bookmark"></i>
+            <span class="header__nav-text">스토리</span>
+          </a>
+          <a href="/" class="header__nav-item {% if current.first == '/' %}active{% endif %}">
+            <i class="fas fa-book-open"></i>
+            <span class="header__nav-text">블로그</span>
+          </a>
+          <a href="/members" class="header__nav-item {% if current.first == '/members' %}active{% endif %}">
+            <i class="fas fa-users"></i>
+            <span class="header__nav-text">멤버</span>
+          </a>
+          <a href="/projects" class="header__nav-item {% if current.first == '/projects' %}active{% endif %}">
+            <i class="fas fa-folder"></i>
+            <span class="header__nav-text">프로젝트</span>
+          </a>
+          <a href="/achieves" class="header__nav-item {% if current.first == '/achieves' %}active{% endif %}">
+            <i class="fas fa-trophy"></i>
+            <span class="header__nav-text">업적</span>
+          </a>
+        </li>
+      </ul>
+      <div class="header__btns">
+        <a class="header__btn" href="{{ site.social.github }}" target="_blank">
+          GitHub
+        </a>
+        <a class="header__btn" href="{{ site.social.facebook }}" target="_blank">
+          Facebook
+        </a>
+      </div>
+</div>
+
 <div
   class="header"
 >
-  <nav class="header__nav">
-    <a
-      href="/"
-      class="header__brand"
-    >
-      INU 2019
-    </a>
-    <ul class="header__nav-list">
-      <li>
-        {% assign current = page.url | split: '.' %}
-        <a 
-          href="/story"
-          class="header__nav-item {% if current.first == '/story' %}active{% endif %}"
-        >
-          <i class="fas fa-bookmark"></i>
-          <span class="header__nav-text">스토리</span>
-        </a>
-        <a
-          href="/"
-          class="header__nav-item {% if current.first == '/' %}active{% endif %}"
-        >
-          <i class="fas fa-book-open"></i>
-          <span class="header__nav-text">블로그</span>
-        </a>
-        <a
-          href="/members"
-          class="header__nav-item {% if current.first == '/members' %}active{% endif %}"
-        >
-          <i class="fas fa-users"></i>
-          <span class="header__nav-text">멤버</span>
-        </a>
-        <a
-          href="/projects"
-          class="header__nav-item {% if current.first == '/projects' %}active{% endif %}"
-        >
-          <i class="fas fa-folder"></i>
-          <span class="header__nav-text">프로젝트</span>
-        </a>
-        <a
-          href="/achieves"
-          class="header__nav-item {% if current.first == '/achieves' %}active{% endif %}"
-        >
-          <i class="fas fa-trophy"></i>
-          <span class="header__nav-text">업적</span>
-        </a>
-      </li>
-    </ul>
-    <div class="header__btns">
-      <a
-        class="header__btn"
-        href="{{ site.social.github }}"
-        target="_blank"
-      >
-        GitHub
-      </a>
-      <a
-        class="header__btn"
-        href="{{ site.social.facebook }}"
-        target="_blank"
-      >
-        Facebook
-      </a>
-    </div>
-  </nav>
   <div class="header__container">
     <div class="header__content">
       <h1 class="header__title">
