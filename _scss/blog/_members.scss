@@ -49,6 +49,7 @@
     display: inline-flex;
     border-radius: 50%;
     box-shadow: 2px 5px 32px -15px rgba(18, 18, 18, 0.2);
+    -webkit-user-drag: none;
   }
 
   &__info {
