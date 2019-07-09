@@ -29,27 +29,27 @@ layout: default
               <span class="member__name">{{ user.name }}</span>
             </span>
             <span class="member__badge">{{ user.badge }}</span>
+            <div class="member__btns">
+              {% if user.social.facebook %}
+                <a
+                  class="member__btn"
+                  href="{{ user.social.facebook }}"
+                  target="_blank"
+                >
+                  <i class="fab fa-facebook"></i>
+                </a>
+              {% endif %}
+              {% if user.social.github %}
+                <a
+                  class="member__btn"
+                  href="{{ user.social.github }}"
+                  target="_blank"              
+                >
+                  <i class="fab fa-github"></i>
+                </a>
+              {% endif %}
+            </div>
           </div>
-        </div>
-        <div class="member__btns">
-          {% if user.social.facebook %}
-            <a
-              class="member__btn"
-              href="{{ user.social.facebook }}"
-              target="_blank"
-            >
-              <i class="fab fa-facebook"></i>
-            </a>
-          {% endif %}
-          {% if user.social.github %}
-            <a
-              class="member__btn"
-              href="{{ user.social.github }}"
-              target="_blank"              
-            >
-              <i class="fab fa-github"></i>
-            </a>
-          {% endif %}
         </div>
       </div>
     {% endfor %}
