@@ -28,6 +28,8 @@
   padding: 1rem 1rem;
   position: relative;
   box-shadow: 2px 5px 32px -15px rgba(18, 18, 18, 0.2);
+  transition: all 0.5s;
+  user-select: none;
 
   &__profile {
     display: flex;
@@ -42,6 +44,7 @@
     object-fit: cover;
     background-color: $gray-4;
     display: inline-flex;
+    box-shadow: 2px 5px 32px -15px rgba(18, 18, 18, 0.2);
   }
 
   &__info {
@@ -98,5 +101,10 @@
     &:active {
       color: $gray-7;
     }
+  }
+
+  &:hover {
+    transform: scale(1.05);
+    background-color: #fefefe;
   }
 }
