@@ -1,3 +1,24 @@
+.header__nav {
+    z-index: 1;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, .8);
+    position: fixed;
+    width: 100%;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 1.5rem;
+    align-content: center;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    user-select: none;
+}
+
 .header {
   position: relative;
   background-repeat: no-repeat;
@@ -6,20 +27,6 @@
   background-image:
     linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), 
     url(/assets/images/header.png);
-
-  &__nav {
-    position: absolute;
-    width: 100%;
-    color: white;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    height: 3.5rem;
-    align-content: center;
-    font-family: 'Montserrat', sans-serif;
-    margin-top: 1.5rem;
-    user-select: none;
-  }
 
   &__brand {
     padding: 0 1.5rem;
@@ -88,7 +95,7 @@
   }
 
   &__container {
-    height: 500px;
+    height: 495px;
     display: flex;
     justify-content: center;
   }
