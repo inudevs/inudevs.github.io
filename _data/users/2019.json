@@ -33,7 +33,6 @@
     "name": "우상윤",
     "badge": "0개 국어 전문가",
     "belong": "HD18",
-    "image": "/assets/images/profiles/우상윤.jpg",
     "social": {
       "github": "https://github.com/SYWoo2003",
       "facebook": "https://www.facebook.com/profile.php?id=100011416725308"
@@ -86,5 +85,79 @@
       "github": "https://github.com/ohboksa",
       "facebook": "https://www.facebook.com/profile.php?id=100009323971830"
     }
+  },
+  {
+    "name": "권순우",
+    "badge": "니가써",
+    "belong": "DC18",
+    "social": {
+      "github": null,
+      "facebook": "https://www.facebook.com/profile.php?id=100028423181423"
+    }
+  },
+  {
+    "name": "김수빈",
+    "badge": "니가써",
+    "belong": "DC18",
+    "social": {
+      "github": null,
+      "facebook": "https://www.facebook.com/profile.php?id=100018357283219"
+    }
+  },
+  {
+    "name": "민승현",
+    "badge": "니가써",
+    "belong": "WP18",
+    "social": {
+      "github": "https://github.com/MinSeungHyun",
+      "facebook": "https://www.facebook.com/profile.php?id=100016068820153"
+    }
+  },
+  {
+    "name": "박승아",
+    "badge": "니가써",
+    "belong": "WP18",
+    "social": {
+      "github": "https://github.com/sseungah",
+      "facebook": "https://www.facebook.com/profile.php?id=100010594364725"
+    }
+  },
+  {
+    "name": "백은서",
+    "badge": "니가써",
+    "belong": "WP18",
+    "social": {
+      "github": "https://github.com/eunseo21",
+      "facebook": "https://www.facebook.com/profile.php?id=100005554786732"
+    }
+  },
+  {
+    "name": "장혁수",
+    "badge": "니가써",
+    "belong": "HD18",
+    "social": {
+      "github": "https://github.com/janghs0484",
+      "facebook": "https://www.facebook.com/profile.php?id=100004287617088"
+    }
+  },
+  {
+    "name": "장종우",
+    "badge": "니가써",
+    "belong": "WP18",
+    "social": {
+      "github": "https://github.com/wkdwhddn06",
+      "facebook": "https://www.facebook.com/profile.php?id=100009684846530"
+    }
+  },
+  {
+    "name": "오준서",
+    "badge": "탈주",
+    "belong": "HD18",
+    "image": "/assets/images/profiles/오준서.jpg",
+    "social": {
+      "github": "https://github.com/hunsol03",
+      "facebook": "https://www.facebook.com/profile.php?id=100011699681072"
+    },
+    "runaway": true
   }
 ]
