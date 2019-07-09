@@ -21,7 +21,7 @@
   },
   {
     "name": "심재성",
-    "badge": "니가써",
+    "badge": "언제나 극대노",
     "belong": "WP18",
     "image": "/assets/images/profiles/심재성.jpg",
     "social": {
@@ -33,6 +33,7 @@
     "name": "우상윤",
     "badge": "0개 국어 전문가",
     "belong": "HD18",
+    "image": "/assets/images/profiles/우상윤.jpg",
     "social": {
       "github": "https://github.com/SYWoo2003",
       "facebook": "https://www.facebook.com/profile.php?id=100011416725308"
@@ -49,7 +50,7 @@
   },
   {
     "name": "김상민",
-    "badge": "니가써",
+    "badge": "로봇암 개발중",
     "belong": "WP18",
     "social": {
       "github": "https://github.com/plantstoen",
