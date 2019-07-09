@@ -1,0 +1,31 @@
+---
+layout: default
+---
+
+<div class="achieves">
+  <span class="achieves__head">
+    <span class="achieves__title">
+      Achievements
+    </span>
+    <span class="achieves__desc">
+      INU의 도전은 계속됩니다.
+    </span>
+  </span>
+  <div class="achieves__list">
+    {% for item in site.data.achieves["2019"] %}
+      <div class="achievement">
+        <img
+          class="achievement__profile"
+          src="{{ item.profile }}"
+        >
+        <div class="achievement__info">
+          <div class="achievement__title">
+            <span class="achievement__name">{{ item.name }}</span>
+            <span class="achievement__track">{{ item.track }}</span>
+          </div>
+          <span class="achievement__desc">{{ item.desc }}</span>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+</div>

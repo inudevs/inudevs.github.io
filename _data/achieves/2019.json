@@ -1,0 +1,21 @@
+[
+  {
+    "name": "서울 하드웨어 해커톤",
+    "profile": "/assets/images/archieves/2019/seoul-hw.png",
+    "desc": "ㅇㅇㅇㅇㅇ"
+  },
+  {
+    "name": "제 18회 앱잼",
+    "track": "미래산업(IoT) 부문",
+    "profile": "/assets/images/archieves/2019/18th-appjam.png"
+  },
+  {
+    "name": "Junction X Seoul",
+    "track": "ZEPETO Render API Track",
+    "profile": "/assets/images/archieves/2019/junctionx-seoul.jpg"
+  },
+  {
+    "name": "제 3회 디미고 해커톤",
+    "profile": "/assets/images/archieves/2019/dimigo.png"
+  }
+]
