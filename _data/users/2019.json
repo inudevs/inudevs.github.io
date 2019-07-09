@@ -43,6 +43,7 @@
     "name": "윤영창",
     "badge": "인생은 안드",
     "belong": "WP18",
+    "image": "/assets/images/profiles/윤영창.jpg",
     "social": {
       "github": "https://github.com/YunYeongChang",
       "facebook": "https://www.facebook.com/profile.php?id=100007497766196"
@@ -91,6 +92,7 @@
     "name": "권순우",
     "badge": "니가써",
     "belong": "DC18",
+    "image": "/assets/images/profiles/권순우.jpg",
     "social": {
       "github": null,
       "facebook": "https://www.facebook.com/profile.php?id=100028423181423"
@@ -100,6 +102,7 @@
     "name": "김수빈",
     "badge": "니가써",
     "belong": "DC18",
+    "image": "/assets/images/profiles/김수빈.jpg",
     "social": {
       "github": null,
       "facebook": "https://www.facebook.com/profile.php?id=100018357283219"
@@ -134,8 +137,9 @@
   },
   {
     "name": "장혁수",
-    "badge": "니가써",
+    "badge": "도리토스맛",
     "belong": "HD18",
+    "image": "/assets/images/profiles/장혁수.jpg",
     "social": {
       "github": "https://github.com/janghs0484",
       "facebook": "https://www.facebook.com/profile.php?id=100004287617088"
@@ -145,6 +149,7 @@
     "name": "장종우",
     "badge": "니가써",
     "belong": "WP18",
+    "image": "/assets/images/profiles/장종우.jpg",
     "social": {
       "github": "https://github.com/wkdwhddn06",
       "facebook": "https://www.facebook.com/profile.php?id=100009684846530"
