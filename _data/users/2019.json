@@ -28,7 +28,7 @@
   },
   {
     "name": "우상윤",
-    "badge": "니가써",
+    "badge": "이누 0개국어 담당",
     "belong": "HD18",
     "social": {
       "github": "https://github.com/SYWoo2003",
@@ -60,6 +60,15 @@
     "social": {
       "github": "https://github.com/mhibio",
       "facebook": "https://www.facebook.com/profile.php?id=100009396494932"
+    }
+  },
+  {
+    "name": "송지호",
+    "badge": "이누 커피머신",
+    "belong": "HD18",
+    "social": {
+      "github": "https://github.com/Harugatto",
+      "facebook": "https://www.facebook.com/profile.php?id=100028039531530"
     }
   }
 ]
