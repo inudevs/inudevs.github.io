@@ -27,7 +27,6 @@
   margin-bottom: 1rem;
   display: flex;
   align-items: center;
-  user-select: none;
   justify-items: flex-start;
 
   &__profile {
@@ -55,6 +54,12 @@
 
   &__track {
     margin-left: 0.5rem;
+    color: $gray-6;
+  }
+
+  &__date {
+    display: flex;
+    flex-direction: row;
     color: $gray-6;
   }
 

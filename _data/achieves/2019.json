@@ -2,20 +2,27 @@
   {
     "name": "서울 하드웨어 해커톤",
     "profile": "/assets/images/archieves/2019/seoul-hw.png",
-    "desc": "ㅇㅇㅇㅇㅇ"
+    "date": "2019.03.30 ~ 2019.03.31",
+    "desc": ""
   },
   {
     "name": "제 18회 앱잼",
     "track": "미래산업(IoT) 부문",
-    "profile": "/assets/images/archieves/2019/18th-appjam.png"
+    "profile": "/assets/images/archieves/2019/18th-appjam.png",
+    "date": "2019.04.20 ~ 2019.04.21",
+    "desc": ""
   },
   {
     "name": "Junction X Seoul",
     "track": "ZEPETO Render API Track",
-    "profile": "/assets/images/archieves/2019/junctionx-seoul.jpg"
+    "profile": "/assets/images/archieves/2019/junctionx-seoul.jpg",
+    "date": "2019.05.10 ~ 2019.05.12",
+    "desc": ""
   },
   {
     "name": "제 3회 디미고 해커톤",
-    "profile": "/assets/images/archieves/2019/dimigo.png"
+    "profile": "/assets/images/archieves/2019/dimigo.png",
+    "date": "2019.05.18 ~ 2019.05.19",
+    "desc": ""
   }
 ]
