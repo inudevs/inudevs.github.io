@@ -26,6 +26,13 @@ layout: default
           <span class="achievement__date">{{ item.date }}</span>
           <span class="achievement__desc">{{ item.desc }}</span>
         </div>
+        <div class="achievement__members">
+          {% for member in item.members %}
+            <img
+              class="achievement__member"
+            >
+          {% endfor %}
+        </div>
       </div>
     {% endfor %}
   </div>

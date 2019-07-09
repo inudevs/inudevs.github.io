@@ -28,6 +28,7 @@
   display: flex;
   align-items: center;
   justify-items: flex-start;
+  position: relative;
 
   &__profile {
     height: 4rem;
@@ -66,6 +67,18 @@
   &__desc {
     display: flex;
     flex-direction: row;
+  }
+
+  &__members {
+    position: absolute;
+    right: 0;
+  }
+
+  &__member {
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+    margin-right: 0.5rem;
   }
 
   &:not(.success) {
