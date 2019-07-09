@@ -3,6 +3,7 @@
     "name": "여준호",
     "badge": "동장",
     "belong": "HD18",
+    "image": "/assets/images/profiles/junho.jpg",
     "social": {
       "github": "https://github.com/junhoyeo",
       "facebook": "https://facebook.com/juno3704"
@@ -12,6 +13,7 @@
     "name": "김한경",
     "badge": "부동장",
     "belong": "DC18",
+    "image": "/assets/images/profiles/hankyung.jpg",
     "social": {
       "github": null,
       "facebook": "https://www.facebook.com/profile.php?id=100024992557775"
@@ -21,6 +23,7 @@
     "name": "심재성",
     "badge": "니가써",
     "belong": "WP18",
+    "image": "/assets/images/profiles/jaesung.jpg",
     "social": {
       "github": "https://github.com/Jaeseong-CS",
       "facebook": "https://www.facebook.com/profile.php?id=100027493278652"
@@ -57,6 +60,7 @@
     "name": "문형일",
     "badge": "이누 얼굴담당",
     "belong": "HD18",
+    "image": "/assets/images/profiles/hyungill.jpg",
     "social": {
       "github": "https://github.com/mhibio",
       "facebook": "https://www.facebook.com/profile.php?id=100009396494932"
@@ -66,6 +70,7 @@
     "name": "송지호",
     "badge": "커피 머신",
     "belong": "HD18",
+    "image": "/assets/images/profiles/jiho.jpg",
     "social": {
       "github": "https://github.com/Harugatto",
       "facebook": "https://www.facebook.com/profile.php?id=100028039531530"
