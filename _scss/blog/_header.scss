@@ -131,5 +131,18 @@
     &__btns {
       display: none;
     }
+
+    &__container {
+      height: -webkit-fill-available;
+    }
+
+    &__content {
+      word-break: keep-all;
+      left: 1rem;
+    }
+
+    &__title {
+      font-size: 4rem;
+    }
   }
 }
