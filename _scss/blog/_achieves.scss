@@ -36,6 +36,7 @@
     border-radius: 50%;
     margin-right: 0.8rem;
     box-shadow: 2px 5px 32px -15px rgba(18, 18, 18, 0.2);
+    -webkit-user-drag: none;
   }
 
   &__info {
@@ -71,7 +72,7 @@
 
   &__members {
     position: absolute;
-    right: 0;
+    right: 0.5rem;
     bottom: 0.3rem;
   }
 

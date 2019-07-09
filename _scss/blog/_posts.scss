@@ -59,6 +59,7 @@
     object-fit: cover;
     border-radius: 50%;
     border: 1px solid $gray-4;
+    -webkit-user-drag: none;
   }
 
   &__title {
