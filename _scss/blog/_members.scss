@@ -105,8 +105,13 @@
     }
   }
 
-  &:hover {
+  &:not(.runaway):hover {
     transform: scale(1.05);
     background-color: #fefefe;
+  }
+
+  &.runaway {
+    opacity: 0.5;
+    filter: grayscale(0.8);
   }
 }

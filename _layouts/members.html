@@ -13,11 +13,15 @@ layout: default
   </span>
   <div class="members__list">
     {% for user in site.data.users["2019"] %}
-      <div class="member">
+      <div class="member {% if user.runaway %}runaway{% endif %}">
         <div class="member__profile">
           <img
             class="member__image"
-            src="{{ user.image }}"
+            src="{% if user.image %}
+                  {{ user.image }}
+                {% else %}
+                  https://via.placeholder.com/150.png?text=INU+2019
+                {% endif %}"
           />
           <div class="member__info">
             <span class="member__small">
