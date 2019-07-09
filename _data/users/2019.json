@@ -75,5 +75,15 @@
       "github": "https://github.com/Harugatto",
       "facebook": "https://www.facebook.com/profile.php?id=100028039531530"
     }
+  },
+  {
+    "name": "오승주",
+    "badge": "이누 대표 ",
+    "belong": "HD18",
+    "image": "/assets/images/profiles/seungju.jpg",
+    "social": {
+      "github": "https://github.com/ohboksa",
+      "facebook": "https://www.facebook.com/profile.php?id=100009323971830"
+    }
   }
 ]
