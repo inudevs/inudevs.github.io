@@ -119,6 +119,10 @@
     font-size: 1.2rem;
   }
 
+  &__menu {
+    display: none;
+  }
+
   @media (max-width: 980px) {
     &__nav {
       justify-content: space-between;
@@ -143,6 +147,13 @@
 
     &__title {
       font-size: 4rem;
+    }
+
+    &__menu {
+      display: inline-flex;
+      align-self: center;
+      padding-right: 1.5rem;
+      font-size: 2rem;
     }
   }
 }
