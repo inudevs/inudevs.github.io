@@ -124,8 +124,17 @@
   }
 
   @media (max-width: 980px) {
-    &__nav {
+    &__top {
       justify-content: space-between;
+      flex-direction: row;
+    }
+
+    &__brand {
+      display: inline-flex;
+    }
+
+    &__nav {
+      flex-direction: column;
     }
 
     &__nav-list {
@@ -154,6 +163,30 @@
       align-self: center;
       padding-right: 1.5rem;
       font-size: 2rem;
+      position: absolute;
+      right: 0;
+    }
+  }
+
+  &__nav-list.res {
+    transition: all 0.2s;
+    position: fixed;
+    display: block;
+    right: 1.5rem;
+    top: 2.9rem;
+    background-color: $gray-9;
+    border: none;
+  }
+
+  &__nav-list.res &__nav-item {
+    font-size: 1.8rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0.5rem 0.8rem;
+
+    i {
+      margin-right: 1rem;
     }
   }
 }

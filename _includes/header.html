@@ -1,43 +1,56 @@
 <div class="header__nav">
-      <a href="/" class="header__brand">
-        INU 2019
+  <div class="header__top">
+    <a href="/" class="header__brand">
+      INU 2019
+    </a>
+    <div
+      class="header__menu"
+      onclick="toggle()"
+    >
+      <i class="fas fa-bars"></i>
+    </div>
+  </div>
+  <ul class="header__nav-list">
+    {% assign current = page.url | split: '.' %}
+    <li>
+      <a href="/story" class="header__nav-item {% if current.first == '/story' %}active{% endif %}">
+        <i class="fas fa-bookmark"></i>
+        <span class="header__nav-text">스토리</span>
       </a>
-      <ul class="header__nav-list">
-        <li>
-          {% assign current = page.url | split: '.' %}
-          <a href="/story" class="header__nav-item {% if current.first == '/story' %}active{% endif %}">
-            <i class="fas fa-bookmark"></i>
-            <span class="header__nav-text">스토리</span>
-          </a>
-          <a href="/" class="header__nav-item {% if current.first == '/' %}active{% endif %}">
-            <i class="fas fa-book-open"></i>
-            <span class="header__nav-text">블로그</span>
-          </a>
-          <a href="/members" class="header__nav-item {% if current.first == '/members' %}active{% endif %}">
-            <i class="fas fa-users"></i>
-            <span class="header__nav-text">멤버</span>
-          </a>
-          <a href="/projects" class="header__nav-item {% if current.first == '/projects' %}active{% endif %}">
-            <i class="fas fa-folder"></i>
-            <span class="header__nav-text">프로젝트</span>
-          </a>
-          <a href="/achieves" class="header__nav-item {% if current.first == '/achieves' %}active{% endif %}">
-            <i class="fas fa-trophy"></i>
-            <span class="header__nav-text">업적</span>
-          </a>
-        </li>
-      </ul>
-      <div class="header__btns">
-        <a class="header__btn" href="{{ site.social.github }}" target="_blank">
-          GitHub
-        </a>
-        <a class="header__btn" href="{{ site.social.facebook }}" target="_blank">
-          Facebook
-        </a>
-      </div>
-      <div class="header__menu">
-        <i class="fas fa-bars"></i>
-      </div>
+    </li>
+    <li>
+      <a href="/" class="header__nav-item {% if current.first == '/' %}active{% endif %}">
+        <i class="fas fa-book-open"></i>
+        <span class="header__nav-text">블로그</span>
+      </a>
+    </li>
+    <li>
+      <a href="/members" class="header__nav-item {% if current.first == '/members' %}active{% endif %}">
+        <i class="fas fa-users"></i>
+        <span class="header__nav-text">멤버</span>
+      </a>
+    </li>
+    <li>
+      <a href="/projects" class="header__nav-item {% if current.first == '/projects' %}active{% endif %}">
+        <i class="fas fa-folder"></i>
+        <span class="header__nav-text">프로젝트</span>
+      </a>
+    </li>
+    <li>
+      <a href="/achieves" class="header__nav-item {% if current.first == '/achieves' %}active{% endif %}">
+        <i class="fas fa-trophy"></i>
+        <span class="header__nav-text">업적</span>
+      </a>
+    </li>
+  </ul>
+  <div class="header__btns">
+    <a class="header__btn" href="{{ site.social.github }}" target="_blank">
+      GitHub
+    </a>
+    <a class="header__btn" href="{{ site.social.facebook }}" target="_blank">
+      Facebook
+    </a>
+  </div>
 </div>
 
 <div
@@ -54,3 +67,15 @@
     </div>
   </div>
 </div>
+
+<script>
+function toggle() {
+  const element = document.getElementsByClassName("header__nav-list")[0];
+  console.log(element)
+  if (element.className.includes('res')) {
+    element.className = 'header__nav-list'
+  } else {
+    element.className = 'header__nav-list res'
+  }
+}
+</script>
