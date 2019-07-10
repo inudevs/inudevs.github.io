@@ -10,6 +10,8 @@ sass:
   sass_dir: _scss
   style: compressed
 
+g-analytics: UA-143594772-1
+
 markdown: kramdown
 plugins:
   - jekyll-feed
