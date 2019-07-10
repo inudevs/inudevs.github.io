@@ -21,7 +21,7 @@
   },
   {
     "name": "심재성",
-    "badge": "언제나 극대노",
+    "badge": "디미고 비주얼 ",
     "belong": "WP18",
     "image": "/assets/images/profiles/심재성.jpg",
     "social": {
@@ -60,7 +60,7 @@
   },
   {
     "name": "문형일",
-    "badge": "이누 얼굴담당",
+    "badge": "몬쉥김",
     "belong": "HD18",
     "image": "/assets/images/profiles/문형일.jpg",
     "social": {
@@ -119,7 +119,8 @@
   },
   {
     "name": "박승아",
-    "badge": "니가써",
+    "badge": "이누 얼굴 담당 (작성자가 잡혀있습니다. 도와주세요.)",
+    "image": "/assets/images/profiles/박승아.jpg",
     "belong": "WP18",
     "social": {
       "github": "https://github.com/sseungah",
