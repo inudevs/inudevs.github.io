@@ -24,6 +24,12 @@
       display: flex;
     }
   }
+
+  @media (max-width: 350px) {
+    &__title {
+      font-size: 2.2rem;
+    }
+  }
 }
 
 .achievement {
