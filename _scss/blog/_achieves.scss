@@ -99,7 +99,8 @@
   }
 
   &:not(.success) {
-    // opacity: 0.6;
+    opacity: 0.6;
+    filter: grayscale(1);
   }
 
   @media (max-width: 700px) {
